@@ -1,4 +1,6 @@
-/*const http = require('http')
+/*
+//This first part is creating a server without Express
+const http = require('http')
 const server = http.createServer((req, res) => {
     if (req.url === "/") {
         res.write(`
